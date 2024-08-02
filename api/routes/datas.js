@@ -6,7 +6,7 @@ const router = express.Router();
 router.get("/metadata", metedata);
 router.get("/rows", getRows);
 router.post("/addRow", addRow);
-router.put("/updataValue", updateValue);
+router.put("/updateValue", updateValue);
 router.delete("/deleteValue", deleteValue);
 
 export default router;
